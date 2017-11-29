@@ -12,6 +12,6 @@ app.use(express.static(publicPath));
 //   res.render('index');
 // });
 
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log(`Serveris up on ${port}`);
 });
